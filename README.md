@@ -11,7 +11,8 @@ hora de cutucar... MUAHAHAHAHAHAHAHAHHA
   alias, você precisa ter o nodejs instalado obviamente
 </li>
 <li>
-  depois disso só usar o roda ele com: node index.js e deixa la rodando
+  depois disso só rodar ele com: node index.js e deixa la rodando,
+  se quiser cria um batch que rode
 </li>
 <li>
   o Meta e nenhuma empresa relacionada a eles apoia, nem aprova e não tem nenhum envolvimento com esse codigo. fazer zuckinho nao me processarrrrr
