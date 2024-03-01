@@ -1,4 +1,5 @@
 const puppeteer = require("puppeteer");
+const creds = require("./creds.json");
 
 const password = '';
 const email = '';
@@ -12,8 +13,8 @@ const delayMT = 0.7;
     await page.setViewport({width: 1600, height: 900});
 
     await delay(3)
-    await page.type('#email',email)
-    await page.type('#pass',password)
+    await page.type('#email',creds.email)
+    await page.type('#pass',creds.password)
 
     await delay(1)
     await page.waitForSelector('button[class="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy"]');
