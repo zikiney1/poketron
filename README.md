@@ -4,10 +4,11 @@ hora de cutucar... MUAHAHAHAHAHAHAHAHHA
   Alias BTW Entretando toda via
 </h1>
 <li>
-  para ele logar na sua conta abra o index.js com algun editor de texto e bote suas credenciais ali
+  para ele logar na sua conta abra o creds.json com algun editor de texto e bote suas credenciais ali
 </li>
 <li>
-  rode o batch q vai instalar o puppeteer local, se quiser abre o cmd ai e bota: npm i --save puppeteer
+  rode o batch q vai instalar o puppeteer, se quiser abre o cmd ai e bota: npm i --save puppeteer
+  alias, você precisa ter o nodejs instalado obviamente
 </li>
 <li>
   depois disso só usar o roda ele com: node index.js e deixa la rodando
