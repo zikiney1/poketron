@@ -1,7 +1,7 @@
 hora de cutucar... MUAHAHAHAHAHAHAHAHHA
 
 <h1>
-  como usar
+  Alias BTW Entretando toda via
 </h1>
 <li>
   rode o batch q vai instalar o puppeteer local, se quiser abre o cmd ai e bota: npm i --save puppeteer
