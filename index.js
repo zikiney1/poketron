@@ -1,8 +1,6 @@
 const puppeteer = require("puppeteer");
 const creds = require("./creds.json");
 
-const password = '';
-const email = '';
 const delayMT = 0.7;
 
 (async function main(){
