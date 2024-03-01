@@ -4,6 +4,9 @@ hora de cutucar... MUAHAHAHAHAHAHAHAHHA
   Alias BTW Entretando toda via
 </h1>
 <li>
+  para ele logar na sua conta abra o index.js com algun editor de texto e bote suas credenciais ali
+</li>
+<li>
   rode o batch q vai instalar o puppeteer local, se quiser abre o cmd ai e bota: npm i --save puppeteer
 </li>
 <li>
