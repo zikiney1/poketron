@@ -10,5 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "puppeteer": "^22.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zikiney1/poketron.git"
+  },,
+  "bugs": {
+    "url": "https://github.com/zikiney1/poketron/issues"
+  },
+  "homepage": "https://github.com/zikiney1/poketron#readme"
 }
