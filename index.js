@@ -29,18 +29,18 @@ const ok = 'body > div.x1n2onr6.x1vjfegm > div.x9f619.x1n2onr6.x1ja2u2z > div > 
     console.log('começando a cutucagem...  \(˙u˙)/');
     while(true){
         try{
-            const t = 'div[class="x16n37ib x1n2onr6 x1e56ztr x1xmf6yo xamitd3"]';
-            const n = 'a[class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 xggy1nq x1a2a7pz xt0b8zv x1hl2dhg xzsf02u x1s688f"]';
+            const pokeBtn = 'div[class="x16n37ib x1n2onr6 x1e56ztr x1xmf6yo xamitd3"]';
+            const name = 'a[class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 xggy1nq x1a2a7pz xt0b8zv x1hl2dhg xzsf02u x1s688f"]';
             
-            await page.waitForSelector(t);
-            const pokers = await page.$$(t);
+            await page.waitForSelector(pokeBtn);
+            const pokers = await page.$$(pokeBtn);
 
             if(pokers.length === 0){
                 await delay(5);
                 continue;
             }
-            await page.waitForSelector(n);
-            const pokersName = await page.$$(n);
+            await page.waitForSelector(name);
+            const pokersName = await page.$$(name);
             let i = 0
 
             for(poke of pokers){
